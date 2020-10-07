@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+    background-image: linear-gradient( 109.6deg,  rgba(121,203,202,1) 11.2%, rgba(119,161,211,1) 91.1% );;
+}
+
+button{
+    display:inline-block;
+    margin: 0 1rem;
+    border-radius: 50%;
+    height: 10rem;   
+    width: 10rem;
+    border: none;
+    background:white;
+    font-weight: 800;
+    box-shadow: 0 0 10px 2px rgb(255, 255, 255);
+    transform: all 0.5s ease;
+}
+
+.buttonclicked{
+    height: 15rem;   
+    width: 15rem;
+    box-shadow: 0 0 200px 2px rgb(255, 255, 255);
+    color: darkblue;
+    font-size: 1.5rem;
+}
